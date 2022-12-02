@@ -19,43 +19,28 @@ Instructions:
 - street_address
 - phone_number
 
-4.  Insert the following owners below: <br />
+4.  Insert the following owners below: 
 
-```
-+----+--------+------------+--------+----------+
-| id | name   | breed      | gender | neutered |
-+----+--------+------------+--------+----------+
-|  1 | Tuna   | Siamese    | Female |        1 |
-|  2 | Marla  | Tabby      | Female |        0 |
-|  3 | Sam    | Maine Coon | Male   |        0 |
-|  4 | Cheeto | Naked      | Male   |        1 |
-|  5 | Toby   | Siamese    | Male   |        0 |
-+----+--------+------------+--------+----------+
-```
+- Jen Beltran, jenbeltran@email.com, 123 York Street, 416-777-7777
+- Ha Pham, ha@email.com, 876 CN Tower Road, 416-888-9999
+- Sally Duncan, sally@email.com, 728 Water Cres, 647-000-1111
 
-5. Create a table named `vet_clinics` in your database with the following variables:
+
+5. Create a table named `vets` in your database with the following variables:
 
 - id
-- clinic_name
 - vet_first_name
 - vet_last_name
+- clinic_name
 - email
 - address
 - phone_number
 
-6.  Insert the following vet clinics below: <br />
+6.  Insert the following vets below: <br />
 
-```
-+----+--------+------------+--------+----------+
-| id | name   | breed      | gender | neutered |
-+----+--------+------------+--------+----------+
-|  1 | Tuna   | Siamese    | Female |        1 |
-|  2 | Marla  | Tabby      | Female |        0 |
-|  3 | Sam    | Maine Coon | Male   |        0 |
-|  4 | Cheeto | Naked      | Male   |        1 |
-|  5 | Toby   | Siamese    | Male   |        0 |
-+----+--------+------------+--------+----------+
-```
+- Meag Campbell, Meow Clinic, meowclinic@email.com, 3847 King Street, 416-222-4456
+- Alan Castro, Colab Clinic, colabvetclinic@email.com, 283 East Hills Road, 647-222-9191
+- Clinton Keating, Colab Clinic, colabvetclinic@email.com, 283 East Hills Road, 647-222-9191
 
 
 7. Create a table named `cats` in your database with the following variables:
@@ -66,21 +51,15 @@ Instructions:
 - gender
 - neutered (true or false)
 - owner_id
-- vet_clinic_id
+- vet_id
 
 8.  Insert the following cats below: <br />
 
-```
-+----+--------+------------+--------+----------+
-| id | name   | breed      | gender | neutered |
-+----+--------+------------+--------+----------+
-|  1 | Tuna   | Siamese    | Female |        1 |
-|  2 | Marla  | Tabby      | Female |        0 |
-|  3 | Sam    | Maine Coon | Male   |        0 |
-|  4 | Cheeto | Naked      | Male   |        1 |
-|  5 | Toby   | Siamese    | Male   |        0 |
-+----+--------+------------+--------+----------+
-```
+- Tuna, Siamese, Female, neutered, owner is Jen Beltran, vet is Clinton
+- Marla, Tabby, Female, neutered, owner is Sally Duncan, clinic is Meow Clinic
+- Sam, Maine Coon, Male, not neutered, owner is Ha Pham, vet is Meag
+- Toby, Siamese, Male, not neutered, owner is Jen Beltran, vet is Clinton
+
 
 
 
