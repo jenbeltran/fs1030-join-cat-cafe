@@ -33,7 +33,7 @@ Instructions:
 - vet_last_name
 - clinic_name
 - email
-- address
+- street_address
 - phone_number
 
 6.  Insert the following vets below: <br />
