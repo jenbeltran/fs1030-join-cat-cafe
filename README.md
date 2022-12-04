@@ -10,7 +10,7 @@ Instructions:
 
 2. Create a database and name it cat_cafe_join
 
-3. Create a table named `owners` in your database with the following variables:
+3. Create a table named `owners` in your database with the following variables. It's okay if owners don't have a street address and email, but we have to have everything else, in order to be able to contract them if something is wrong.
 
 - id
 - first_name
