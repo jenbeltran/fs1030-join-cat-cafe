@@ -26,7 +26,7 @@ Instructions:
 - Sally Duncan, sally@email.com, 728 Water Cres, 647-000-1111
 
 
-5. Create a table named `vets` in your database with the following variables:
+5. Create a table named `vets` in your database with the following variables. It's okay if the clinic doesn't have an email but we need to have everything else!
 
 - id
 - vet_first_name
